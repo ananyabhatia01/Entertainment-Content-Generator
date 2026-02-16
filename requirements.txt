@@ -1,0 +1,10 @@
+streamlit
+google-generativeai
+grpcio
+grpcio-status
+faiss-cpu
+sentence-transformers
+huggingface-hub<1.0
+python-dotenv
+pandas
+numpy
