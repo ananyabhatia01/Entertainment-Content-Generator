@@ -1,8 +1,8 @@
-# 🎬 Nomad Cosmic
+# Nomad Cosmic
 
 **Nomad Cosmic** is an AI-powered production pipeline designed to transform simple creative seeds into professional entertainment assets. It utilizes **Retrieval-Augmented Generation (RAG)** and a **Vector Database** to maintain narrative consistency throughout the storytelling process.
 
-## 🚀 Features
+##  Features
 
 - **Multi-Stage Pipeline**: Concept ⮕ Logline ⮕ Pitch ⮕ Outline ⮕ Characters ⮕ Script Scene.
 - **Narrative Memory**: Uses **FAISS** and **Sentence-Transformers** to ensure the AI remembers plot points and character names.
@@ -10,7 +10,7 @@
 - **Resilient Logic**: Implements exponential backoff to handle API rate limits gracefully.
 - **Premium UI**: Sleek, reactive dashboard built with Streamlit.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Core**: Python 3.9+
 - **LLM**: Google Gemini 2.5 Flash
@@ -18,11 +18,11 @@
 - **Embeddings**: Sentence-Transformers (`all-MiniLM-L6-v2`)
 - **Frontend**: Streamlit
 
-## ⚙️ Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/nomad-cosmic.git
+   git clone https://github.com/ananyabhatia01/nomad-cosmic.git
    cd nomad-cosmic
    ```
 
@@ -38,14 +38,14 @@
      GEMINI_API_KEY=your_api_key_here
      ```
 
-## 🎮 How to Run
+## How to Run
 
 Launch the application using Streamlit:
 ```bash
 streamlit run app.py
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 The project follows a modular High-Level Design (HLD):
 - **UI Tier**: Streamlit Dashboard.
@@ -54,5 +54,3 @@ The project follows a modular High-Level Design (HLD):
 - **Intelligence Layer**: Google Gemini API integration.
 
 ---
-
-*Developed with ❤️ for the future of AI-driven storytelling.*
